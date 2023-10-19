@@ -30,6 +30,13 @@ header{
   font-size: 1.5rem; 
 }
 
+.material img{
+  margin: auto;
+  display: block;
+  text-align: center;
+  display: block;
+}
+
 .kit{
   color: #004AAD;
   text-align: center;

@@ -16,17 +16,21 @@ function Componentes() {
 
 
 
-<div id="material">
+<div className="material">
     <h1>Materiais/Componentes:</h1>
+    <br />
     <p>Para o desenvolvimento deste projeto utilizamos:</p>
     <img src="src/imagens/componentes.png" alt="comps" />
     </div>
 
+    <br />
+    <br />
 
 
 <div className="kit">
     <p>Kit de carrinho arduino</p>
 </div>
+<br />
 
 <div className="comp">
  <p>
@@ -42,12 +46,15 @@ function Componentes() {
     </ul>
  </p>
  </div>
-
+ 
+ <br />
+ <br />
 
 
 <div className="sensor">
     <h2>Sensor de obstáculo reflexivo infravermelho</h2>
      </div>
+     <br />
 
 
 <div className="contsensor">
