@@ -1,12 +1,29 @@
 header{
-    color: #004AAD;
+   color: #004AAD;
    font-size: 1.5rem;
    font-weight: 2rem;
    text-align:left;
    color: #004AAD;
-font-family: Graduate;
+   font-family: Graduate;
 }
-.obj{
+
+.obj h1{
+    font-family: Graduate;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.obj img{
+    float: left;
+    justify-content: left;
+    width: 5rem; 
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+}
+
+.obj p{
     color: #000;
     font-family: Graduate;
     font-size: 2rem;
@@ -18,8 +35,8 @@ font-family: Graduate;
     width: 50%;
     margin: auto;
     display: block;
-  
 }
+
 
 .pub h1{
     color: #004AAD;
