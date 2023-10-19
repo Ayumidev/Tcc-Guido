@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+
 import './css/funcio.css'
 
 function Funcionamento() {
@@ -11,11 +11,17 @@ function Funcionamento() {
 
         <div className="func1">
         <img src="src/imagens/funcionamento1-11.png" alt="funcio1" />
+
+        <br />
+        
       <p>
     O Arduino é uma plataforma amplamente utilizada na prototipagem eletrônica graças à sua facilidade de programação e implantação. Hoje faremos uso dessas características para 
     desenvolver um robô seguidor de linha e entender na prática como essas máquinas amplamente utilizadas na indústria funcionam.
     </p>
     </div>
+
+    <br />
+
 
         <div className="func2">
     <p>
@@ -24,6 +30,8 @@ function Funcionamento() {
     </p>
     </div>
 
+    <br />
+
     <div className="func3">
                 <p>
                     O Guido é um robô móvel guiado por linhas, tendo a função de transportar materiais de forma eficiente em ambientes
@@ -31,7 +39,6 @@ function Funcionamento() {
                 </p>
 
             </div>
-
     
     </>
      )

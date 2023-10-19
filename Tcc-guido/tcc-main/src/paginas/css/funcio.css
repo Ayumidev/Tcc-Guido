@@ -59,6 +59,8 @@ line-height: normal;
     font-size: 25px;
     width: 50%;
     margin: auto;
-    display: flex;
+    display: block;
+    text-align: center;
+    display: block;
     
 }
