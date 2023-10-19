@@ -1,19 +1,18 @@
-
 h1 {
     color: #004AAD;
-font-family: Graduate;
-font-size: 4rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
- justify-content: center;   
+    font-family: Graduate;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
 }
 
-    h3{
-        width: 30%;
-        margin: auto;
-        display: block;
-    }
+h3 {
+    width: 30%;
+    margin: auto;
+    display: block;
+}
 
 .func1 {
     color: #000;
@@ -22,14 +21,14 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 40rem;  
+    width: 40rem;
     font-size: 25px;
     width: 50%;
     margin: auto;
     display: block;
     text-align: center;
     display: block;
-  
+
 }
 
 .func2 {
@@ -39,7 +38,7 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 40rem;  
+    width: 40rem;
     font-size: 25px;
     width: 50%;
     margin: auto;
@@ -55,12 +54,12 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 40rem;  
+    width: 40rem;
     font-size: 25px;
     width: 50%;
     margin: auto;
     display: block;
     text-align: center;
     display: block;
-    
+
 }

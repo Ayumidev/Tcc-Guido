@@ -8,20 +8,18 @@
 
 .menu {
     border: 1px solid #ccc;
-    width: fit-content;
+    width: 12rem;
     height: calc(100vh - 4rem);
     padding-right: 2rem;
     transition: translate .3s;
-    background: #004AAD;
-    position: absolute;
-    
 }
 
 .menu nav {
     display: flex;
     flex-direction: column;
-    font-size: 40px;
-     padding: 1rem;
+    font-size: 4rem;
+    padding: 1rem;
+    gap: 1rem;
 }   
 
 .menu.close {
@@ -29,6 +27,7 @@
 }
 
 .menu-desktop {
+    background: #004AAD;
     display: none;
 }
 
@@ -37,7 +36,6 @@
     text-decoration: none;
     font-size: 1.1875rem;
     color: white;
-    height: 1.5rem;
 }
 
 
@@ -64,8 +62,7 @@
     }   
 
     .menu-desktop img{
-        margin: 1rem;
+        height: 5rem;
     }
-
 
 }
