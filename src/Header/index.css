@@ -1,0 +1,72 @@
+.botao-menu {
+    border: 1px solid #ccc;
+    height: 4rem;
+    padding-inline: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    border: 1px solid #ccc;
+    width: fit-content;
+    height: calc(100vh - 4rem);
+    padding-right: 2rem;
+    transition: translate .3s;
+    background: #004AAD;
+    position: absolute;
+    
+}
+
+.menu nav {
+   
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+     padding: 1rem;
+}   
+
+.menu.close {
+    translate: -100%;
+}
+
+.menu-desktop {
+    display: none;
+}
+
+.menu-mobile nav a,
+.menu-desktop nav a {
+    text-decoration: none;
+    font-size: 1.1875rem;
+    color: white;
+    height: 1.5rem;
+}
+
+
+@media(min-width: 900px) {
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #004AAD;
+        gap: 5rem;
+    }
+
+    .menu-desktop nav {
+        display: flex;
+        font-size: 1.5rem;
+        gap: 6rem;
+        padding: 3rem;
+        margin: 1rem 80rem 0 0;
+
+    }   
+
+    .menu-desktop img{
+        margin: 1rem;
+    }
+
+
+}
